@@ -1,7 +1,5 @@
 # 🌐 SinCracK RDM (Remote Desktop & Connection Manager)
 
-![SinCracK RDM Logo](public/icon.png)
-
 **SinCracK RDM** es un gestor unificado de conexiones remotas y administración de sistemas de alto rendimiento, diseñado sobre una arquitectura moderna, segura y con una interfaz de usuario minimalista y elegante en tono oscuro.
 
 ![SinCracK RDM Interface](public/screenshot.png)
