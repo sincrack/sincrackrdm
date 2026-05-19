@@ -80,7 +80,7 @@ Para ejecutar el proyecto en tu entorno local de desarrollo:
 Para generar los instaladores de producción de la aplicación:
 
 ### Windows 💻
-Genera un instalador `.exe` (NSIS) y una versión portátil en `release/`:
+Genera tanto el instalador instalable (`SinCracK RDM Setup 1.0.0.exe`) como una versión **100% portable** (un único ejecutable `SinCracK RDM 1.0.0.exe` que no requiere instalación ni privilegios de administrador) en la carpeta `release/`:
 ```bash
 npm run build
 ```
