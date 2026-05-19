@@ -1,6 +1,6 @@
-# 🌐 SinCracK RDM (Remote Desktop & Connection Manager)
+# 🌐 SinCracK RDM
 
-**SinCracK RDM** es un gestor unificado de conexiones remotas y administración de sistemas de alto rendimiento, diseñado sobre una arquitectura moderna, segura y con una interfaz de usuario minimalista y elegante en tono oscuro.
+Gestor unificado de conexiones remotas y administración de sistemas.
 
 ![SinCracK RDM Interface](public/screenshot.png)
 
@@ -80,16 +80,24 @@ Para ejecutar el proyecto en tu entorno local de desarrollo:
 Para generar los instaladores de producción de la aplicación:
 
 ### Windows 💻
-Genera un instalador instalable `.exe` de un solo clic y una versión portátil (unpacked) en la carpeta `release/`:
+Genera un instalador `.exe` (NSIS) y una versión portátil en `release/`:
 ```bash
 npm run build
 ```
 
-### macOS 🍏
-Genera un archivo `.dmg` empaquetado (ejecutar en macOS):
-```bash
-npm run build -- --mac
-```
+### macOS 🍏 (Ejecutar en macOS)
+- **Apple Silicon (ARM64 - M1/M2/M3)**:
+  ```bash
+  npm run build -- --mac --arm64
+  ```
+- **Intel (x64)**:
+  ```bash
+  npm run build -- --mac --x64
+  ```
+- **Universal**:
+  ```bash
+  npm run build -- --mac --universal
+  ```
 
 ### Linux 🐧
 Genera un archivo ejecutable `.AppImage` (ejecutar en Linux):
